@@ -2,6 +2,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    color: #8f8f8f;
+}
+
 #title {
     background-color: #ff4c68;
     color: #fff;
@@ -46,4 +50,29 @@ body {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.feature-group {
+    text-align: center;
+    padding: 5%;
+}
+
+#features h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons :hover {
+    color: #ff4c68;
 }
